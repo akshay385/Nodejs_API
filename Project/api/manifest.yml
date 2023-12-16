@@ -1,0 +1,8 @@
+---
+applications:
+- name: api_app11
+  random-route: true
+  path: 
+  memory: 128M
+  buildpacks:
+  - nodejs_buildpack
